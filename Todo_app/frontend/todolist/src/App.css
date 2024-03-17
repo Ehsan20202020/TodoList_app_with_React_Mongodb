@@ -1,0 +1,57 @@
+body{
+  background-color: grey;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+.create_form button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;  
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.task svg{
+  margin-right: 10px;
+}
+.task p{
+  margin: 0px;
+}
+.task div {
+  display: flex;
+  align-items: center;
+}
+
+.line_through{
+  text-decoration: line-through;
+}
+
+.task div span {
+  margin-left: 220px; /* Added margin for better spacing between icons */
+}
+
+.task div span svg {
+  cursor: pointer;
+}
+
